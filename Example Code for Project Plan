@@ -1,0 +1,8 @@
+import requests
+import json
+
+api_key = 'fa422cb320c2350d80460d995da23a51'
+postal_code = '13078'
+url = 'http://api.tvmedia.ca/tv/v4/lineups?api_key={fa422cb320c2350d80460d995da23a51}&postalCode=13078'
+response = requests.get(url)
+response.text
